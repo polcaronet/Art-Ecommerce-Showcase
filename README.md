@@ -238,13 +238,12 @@ Estou totalmente aberto a:
 4. **🚀 Entender e-commerce end-to-end** da autenticação ao pagamento
 5. **📈 Crescimento profissional** aplicando padrões de mercado
 
-## 📄 Licença
 ```
-Copyright © 2024 Anselmo Polcaro Ribeiro
-Este projeto é de código fechado.
-Todos os direitos reservados.
-```
+### 📄 Licença
 
+🔒 **Código Privado** - Todos os direitos reservados.
+
+```
 ---
 
 <div align="center">
@@ -264,7 +263,4 @@ Todos os direitos reservados.
 <br>
 
 ---
-
-*Feito com ❤️ e muito ☕ por [Anselmo Polcaro](https://github.com/polcaronet)*
-
 </div>
