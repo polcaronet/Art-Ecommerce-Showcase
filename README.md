@@ -238,24 +238,6 @@ Estou totalmente aberto a:
 4. **🚀 Entender e-commerce end-to-end** da autenticação ao pagamento
 5. **📈 Crescimento profissional** aplicando padrões de mercado
 
----
-
-## 👨‍💻 Sobre o Desenvolvedor
-
-<div align="center">
-  
-### **Anselmo Polcaro Ribeiro**
-
-*Full-Stack Developer | Flutter Specialist | Node.js Enthusiast*
-
-[![GitHub](https://img.shields.io/badge/GitHub-polcaronet-181717?style=for-the-badge&logo=github)](https://github.com/polcaronet)
-[![Email](https://img.shields.io/badge/Email-polcaronet@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:polcaronet@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conecte--se-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com)
-
-</div>
-
----
-
 ## 📄 Licença
 ```
 Copyright © 2024 Anselmo Polcaro Ribeiro
