@@ -238,12 +238,12 @@ Estou totalmente aberto a:
 4. **🚀 Entender e-commerce end-to-end** da autenticação ao pagamento
 5. **📈 Crescimento profissional** aplicando padrões de mercado
 
-```
-### 📄 Licença
+---
+
+## 📄 Licença
 
 🔒 **Código Privado** - Todos os direitos reservados.
 
-```
 ---
 
 <div align="center">
