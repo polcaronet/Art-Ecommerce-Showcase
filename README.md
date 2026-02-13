@@ -4,10 +4,12 @@
 
 [![Private Repository](https://img.shields.io/badge/code-private-red)](https://github.com)
 [![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)](https://github.com)
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org)
 
 ## 📋 Sobre o Projeto
 
-Art E-commerce é uma plataforma completa de comércio eletrônico desenvolvida com arquitetura separada entre Backend e Frontend, garantindo escalabilidade, manutenibilidade e performance.
+Art E-commerce é uma plataforma completa de comércio eletrônico desenvolvida com arquitetura separada entre Backend (Node.js) e Frontend (Flutter), garantindo escalabilidade, manutenibilidade e performance multiplataforma.
 
 ## 🎯 Funcionalidades
 
@@ -53,7 +55,7 @@ Art E-commerce é uma plataforma completa de comércio eletrônico desenvolvida 
 
 ## 🚀 Tecnologias Utilizadas
 
-### Backend
+### Backend (API REST)
 
 - **Node.js** - Ambiente de execução JavaScript
 - **Express** - Framework web minimalista e rápido
@@ -64,61 +66,65 @@ Art E-commerce é uma plataforma completa de comércio eletrônico desenvolvida 
 - **Multer** - Upload de arquivos e imagens
 - **Nodemailer** - Envio de emails
 
-### Frontend
+### Frontend (Mobile/Desktop)
 
-- **React** - Biblioteca JavaScript para interfaces
-- **TypeScript** - Superset JavaScript com tipagem estática
-- **Tailwind CSS** - Framework CSS utilitário
-- **Axios** - Cliente HTTP para requisições
-- **React Router** - Navegação entre páginas
-- **Context API** - Gerenciamento de estado global
-- **React Hook Form** - Gerenciamento de formulários
-- **React Query** - Cache e sincronização de dados
+- **Flutter** - Framework multiplataforma do Google
+- **Dart** - Linguagem de programação otimizada para UI
+- **Provider / BLoC** - Gerenciamento de estado
+- **HTTP / Dio** - Requisições HTTP
+- **Shared Preferences** - Armazenamento local
+- **Image Picker** - Seleção de imagens
+- **Flutter Secure Storage** - Armazenamento seguro de tokens
 
 ### DevOps & Tools
 
 - **Git** - Controle de versão
-- **ESLint** - Linting de código
-- **Prettier** - Formatação de código
-- **Docker** - Containerização (opcional)
+- **Postman** - Testes de API
+- **Android Studio / VS Code** - IDEs de desenvolvimento
 
 ## 🏗️ Arquitetura
 
 ```
 Art-Ecommerce/
-├── Backend/                 # API REST
+├── Backend/                    # API REST (Node.js)
 │   ├── src/
-│   │   ├── controllers/    # Lógica de negócio
-│   │   ├── models/         # Schemas do banco de dados
-│   │   ├── routes/         # Definição de rotas
-│   │   ├── middlewares/    # Autenticação, validação
-│   │   ├── config/         # Configurações (DB, JWT, etc)
-│   │   └── utils/          # Funções auxiliares
-│   ├── .env.example        # Exemplo de variáveis
+│   │   ├── controllers/       # Lógica de negócio
+│   │   ├── models/            # Schemas do MongoDB
+│   │   ├── routes/            # Rotas da API
+│   │   ├── middlewares/       # Autenticação, validação
+│   │   ├── config/            # Configurações (DB, JWT, etc)
+│   │   └── utils/             # Funções auxiliares
+│   ├── .env.example           # Exemplo de variáveis
 │   ├── package.json
-│   └── server.js           # Entrada da aplicação
+│   └── server.js              # Entrada da aplicação
 │
-└── Frontend/               # Interface do usuário
-    ├── public/             # Arquivos públicos
-    ├── src/
-    │   ├── components/     # Componentes reutilizáveis
-    │   │   ├── common/    # Botões, Cards, etc
-    │   │   ├── layout/    # Header, Footer, Sidebar
-    │   │   └── products/  # Componentes de produtos
-    │   ├── pages/          # Páginas da aplicação
-    │   │   ├── Home/
-    │   │   ├── Products/
-    │   │   ├── Cart/
-    │   │   ├── Checkout/
-    │   │   └── Admin/
-    │   ├── services/       # Chamadas à API
-    │   ├── hooks/          # Custom hooks
-    │   ├── context/        # Contextos globais
-    │   ├── utils/          # Funções auxiliares
-    │   └── assets/         # Imagens, ícones
-    ├── .env.example
-    └── package.json
+└── Frontend/                   # App Flutter
+    ├── lib/
+    │   ├── main.dart          # Ponto de entrada
+    │   ├── models/            # Modelos de dados
+    │   ├── screens/           # Telas da aplicação
+    │   │   ├── home/
+    │   │   ├── products/
+    │   │   ├── cart/
+    │   │   ├── checkout/
+    │   │   └── admin/
+    │   ├── widgets/           # Widgets reutilizáveis
+    │   ├── services/          # Comunicação com API
+    │   ├── providers/         # Gerenciamento de estado
+    │   ├── utils/             # Funções auxiliares
+    │   └── constants/         # Constantes (cores, URLs)
+    ├── assets/                # Imagens, fontes, ícones
+    ├── android/               # Configurações Android
+    ├── ios/                   # Configurações iOS
+    └── pubspec.yaml           # Dependências Flutter
 ```
+
+## 📱 Plataformas Suportadas
+
+- ✅ **Android** (5.0+)
+- ✅ **iOS** (11.0+)
+- ✅ **Web** (opcional)
+- ✅ **Windows / macOS / Linux** (Desktop)
 
 ## 📱 Screenshots
 
@@ -154,41 +160,46 @@ Entre em contato comigo! Estou aberto a conversas sobre o desenvolvimento, arqui
 
 Este projeto me permitiu desenvolver e aprimorar habilidades em:
 
-- ✅ **Arquitetura Full-Stack**: Separação clara de responsabilidades entre frontend e backend
+- ✅ **Desenvolvimento Multiplataforma**: Um único código Flutter para Android, iOS e Web
+- ✅ **Arquitetura Full-Stack**: Backend Node.js + Frontend Flutter
 - ✅ **APIs RESTful**: Desenvolvimento de endpoints escaláveis e bem documentados
 - ✅ **Autenticação e Segurança**: Implementação de JWT, bcrypt e proteção de rotas
 - ✅ **Integração de Pagamentos**: Trabalho com gateways de pagamento
-- ✅ **Gerenciamento de Estado**: Context API e otimização de re-renders
-- ✅ **Responsividade**: Design mobile-first com Tailwind CSS
-- ✅ **Boas Práticas**: Clean Code, componentização, reutilização
+- ✅ **Gerenciamento de Estado Flutter**: Provider/BLoC pattern
+- ✅ **Programação Assíncrona em Dart**: Futures, Streams e async/await
+- ✅ **UI/UX Mobile**: Design responsivo e material design
 - ✅ **Git & GitHub**: Versionamento profissional com commits semânticos
 
 ### Desafios Superados
 
+- Comunicação eficiente entre Flutter e API REST
 - Implementação de sistema de carrinho persistente
-- Gerenciamento de estoque em tempo real
+- Gerenciamento de estado complexo no Flutter
 - Upload e otimização de imagens de produtos
-- Criação de dashboard administrativo intuitivo
+- Criação de dashboard administrativo mobile-first
+- Tratamento de erros e loading states
 
 ## 🚀 Próximos Passos
 
 - [ ] Sistema de avaliações e comentários de produtos
-- [ ] Notificações em tempo real (WebSockets)
+- [ ] Notificações push (Firebase Cloud Messaging)
 - [ ] Integração com mais gateways de pagamento
-- [ ] Aplicativo mobile com React Native ou Flutter
+- [ ] Deep linking para compartilhamento de produtos
 - [ ] Sistema de cupons e descontos promocionais
 - [ ] Wishlist (lista de desejos)
 - [ ] Comparação de produtos
-- [ ] Recomendações personalizadas com IA
+- [ ] Modo offline com sincronização
+- [ ] Internacionalização (i18n)
+- [ ] Dark mode
 
 ## 💡 Por que este projeto?
 
 Desenvolvi este e-commerce para:
 
 1. **Demonstrar habilidades full-stack** em um projeto real e completo
-2. **Aprender tecnologias modernas** do mercado
+2. **Dominar Flutter** para desenvolvimento multiplataforma
 3. **Criar um portfólio sólido** com código de qualidade
-4. **Entender o fluxo completo** de uma aplicação comercial
+4. **Entender o fluxo completo** de uma aplicação comercial moderna
 
 ## 👨‍💻 Autor
 
@@ -208,6 +219,8 @@ Este projeto é de código fechado. Todos os direitos reservados.
 <div align="center">
 
 **💼 Desenvolvido como projeto de portfólio profissional**
+
+**🎯 Flutter + Node.js = Performance Multiplataforma**
 
 ⭐ **Gostou do projeto? Deixe uma estrela!**
 
