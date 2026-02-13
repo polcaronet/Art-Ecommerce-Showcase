@@ -1,229 +1,288 @@
 # 🛒 Art E-commerce
 
-> Sistema completo de E-commerce desenvolvido com tecnologias modernas
+<div align="center">
+  <img width="300" alt="Art E-commerce App" src="https://github.com/user-attachments/assets/ad763802-0662-40d0-8c31-2ad82593af96" />
+  
+  ### Sistema completo de E-commerce multiplataforma
+  
+  [![Private Repository](https://img.shields.io/badge/code-private-red?style=for-the-badge)](https://github.com)
+  [![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=for-the-badge)](https://github.com)
+  [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
+  [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org)
+  [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com)
+  [![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
+</div>
 
-[![Private Repository](https://img.shields.io/badge/code-private-red)](https://github.com)
-[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)](https://github.com)
-[![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org)
+---
 
 ## 📋 Sobre o Projeto
 
-Art E-commerce é uma plataforma completa de comércio eletrônico desenvolvida com arquitetura separada entre Backend (Node.js) e Frontend (Flutter), garantindo escalabilidade, manutenibilidade e performance multiplataforma.
+**Art E-commerce** é uma plataforma completa de comércio eletrônico desenvolvida com arquitetura moderna e separação de responsabilidades. Combina o poder do **Flutter** para criar uma experiência mobile fluida e nativa com um **backend Node.js** robusto e escalável.
+
+### ✨ Diferenciais
+- 📱 **Multiplataforma**: Um código, múltiplas plataformas (Android, iOS, Web)
+- 🚀 **Performance**: Interface nativa com Flutter + API REST otimizada
+- 🔒 **Segurança**: Autenticação JWT e criptografia de dados sensíveis
+- 🎨 **UI/UX Moderna**: Material Design com animações fluidas
+
+---
 
 ## 🎯 Funcionalidades
 
-### 🔐 Autenticação e Autorização
-
-- Sistema de login e registro de usuários
-- Autenticação JWT
-- Diferentes níveis de permissão (Admin/Cliente)
+<table>
+  <tr>
+    <td width="50%">
+      
+### 🔐 Autenticação
+- Login e registro de usuários
+- Autenticação JWT segura
+- Níveis de permissão (Admin/Cliente)
+- Recuperação de senha
 
 ### 🛍️ Catálogo de Produtos
-
-- Listagem de produtos com filtros avançados
-- Busca inteligente
-- Categorização de produtos
-- Detalhes completos com imagens
+- Listagem com filtros avançados
+- Busca inteligente em tempo real
+- Categorias organizadas
+- Visualização detalhada com galeria
 
 ### 🛒 Carrinho de Compras
-
 - Adicionar/remover produtos
-- Atualizar quantidades em tempo real
-- Cálculo automático de totais e descontos
+- Atualização de quantidades
+- Cálculo automático de totais
+- Persistência de dados
 
-### 💳 Sistema de Pagamento
+</td>
+<td width="50%">
 
-- Integração com gateway de pagamento
+### 💳 Pagamentos
+- Integração com gateways
 - Múltiplas formas de pagamento
-- Confirmação de pedidos por email
+- Confirmação por email
+- Histórico de transações
 
 ### 📦 Gestão de Pedidos
+- Rastreamento em tempo real
+- Status detalhado
+- Notificações push
+- Histórico completo
 
-- Histórico completo de compras
-- Rastreamento de pedidos
-- Status em tempo real
-- Notificações de atualização
-
-### ⚙️ Painel Administrativo
-
-- Gerenciamento completo de produtos
-- Controle de estoque
-- Gestão de pedidos e clientes
-- Relatórios e estatísticas detalhadas
+### ⚙️ Painel Admin
 - Dashboard com métricas
+- Gestão de produtos e estoque
+- Controle de pedidos
+- Relatórios detalhados
 
-## 🚀 Tecnologias Utilizadas
+</td>
+  </tr>
+</table>
 
-### Backend (API REST)
+---
 
-- **Node.js** - Ambiente de execução JavaScript
-- **Express** - Framework web minimalista e rápido
-- **MongoDB** - Banco de dados NoSQL
-- **Mongoose** - ODM para MongoDB
-- **JWT** - Autenticação segura
-- **Bcrypt** - Criptografia de senhas
-- **Multer** - Upload de arquivos e imagens
-- **Nodemailer** - Envio de emails
+## 🚀 Stack Tecnológica
 
-### Frontend (Mobile/Desktop)
+### 🔧 Backend (API REST)
+```javascript
+// Tecnologias principais
+Node.js      →  Runtime JavaScript performático
+Express      →  Framework web minimalista
+MongoDB      →  Banco de dados NoSQL
+Mongoose     →  ODM elegante para MongoDB
+JWT          →  Tokens de autenticação seguros
+Bcrypt       →  Hash de senhas
+Multer       →  Upload de arquivos
+Nodemailer   →  Envio de emails
+```
 
-- **Flutter** - Framework multiplataforma do Google
-- **Dart** - Linguagem de programação otimizada para UI
-- **Provider / BLoC** - Gerenciamento de estado
-- **HTTP / Dio** - Requisições HTTP
-- **Shared Preferences** - Armazenamento local
-- **Image Picker** - Seleção de imagens
-- **Flutter Secure Storage** - Armazenamento seguro de tokens
+### 📱 Frontend (Mobile App)
+```dart
+// Stack Flutter
+Flutter                  →  Framework multiplataforma Google
+Dart                     →  Linguagem otimizada para UI
+Provider/BLoC            →  Gerenciamento de estado
+Dio                      →  Cliente HTTP avançado
+Shared Preferences       →  Storage local
+Flutter Secure Storage   →  Armazenamento seguro
+Image Picker             →  Seleção de imagens
+```
 
-### DevOps & Tools
+### 🛠️ DevOps & Tools
 
-- **Git** - Controle de versão
+- **Git & GitHub** - Controle de versão
 - **Postman** - Testes de API
-- **Android Studio / VS Code** - IDEs de desenvolvimento
+- **VS Code / Android Studio** - Desenvolvimento
+- **ESLint / Dart Analyzer** - Code quality
 
-## 🏗️ Arquitetura
+---
 
+## 🏗️ Arquitetura do Projeto
 ```
 Art-Ecommerce/
-├── Backend/                    # API REST (Node.js)
-│   ├── src/
-│   │   ├── controllers/       # Lógica de negócio
-│   │   ├── models/            # Schemas do MongoDB
-│   │   ├── routes/            # Rotas da API
-│   │   ├── middlewares/       # Autenticação, validação
-│   │   ├── config/            # Configurações (DB, JWT, etc)
-│   │   └── utils/             # Funções auxiliares
-│   ├── .env.example           # Exemplo de variáveis
-│   ├── package.json
-│   └── server.js              # Entrada da aplicação
 │
-└── Frontend/                   # App Flutter
+├── 🔙 Backend/                    # API REST (Node.js + Express)
+│   ├── src/
+│   │   ├── controllers/          # Lógica de negócio
+│   │   ├── models/               # Schemas MongoDB
+│   │   ├── routes/               # Endpoints da API
+│   │   ├── middlewares/          # Auth, validação, etc
+│   │   ├── config/               # Configurações (DB, JWT)
+│   │   └── utils/                # Helpers e utilitários
+│   ├── .env.example
+│   ├── package.json
+│   └── server.js                 # Entry point
+│
+└── 📱 Frontend/                   # Mobile App (Flutter)
     ├── lib/
-    │   ├── main.dart          # Ponto de entrada
-    │   ├── models/            # Modelos de dados
-    │   ├── screens/           # Telas da aplicação
-    │   │   ├── home/
-    │   │   ├── products/
-    │   │   ├── cart/
-    │   │   ├── checkout/
-    │   │   └── admin/
-    │   ├── widgets/           # Widgets reutilizáveis
-    │   ├── services/          # Comunicação com API
-    │   ├── providers/         # Gerenciamento de estado
-    │   ├── utils/             # Funções auxiliares
-    │   └── constants/         # Constantes (cores, URLs)
-    ├── assets/                # Imagens, fontes, ícones
-    ├── android/               # Configurações Android
-    ├── ios/                   # Configurações iOS
-    └── pubspec.yaml           # Dependências Flutter
+    │   ├── main.dart             # Entry point
+    │   ├── models/               # Data models
+    │   ├── screens/              # UI Screens
+    │   │   ├── auth/            # Login, Register
+    │   │   ├── home/            # Home screen
+    │   │   ├── products/        # Product list/details
+    │   │   ├── cart/            # Shopping cart
+    │   │   ├── checkout/        # Checkout flow
+    │   │   └── admin/           # Admin panel
+    │   ├── widgets/              # Reusable widgets
+    │   ├── services/             # API communication
+    │   ├── providers/            # State management
+    │   ├── utils/                # Helpers
+    │   └── constants/            # Colors, URLs, etc
+    ├── assets/                   # Images, fonts, icons
+    └── pubspec.yaml              # Dependencies
 ```
+
+---
 
 ## 📱 Plataformas Suportadas
 
-- ✅ **Android** (5.0+)
-- ✅ **iOS** (11.0+)
-- ✅ **Web** (opcional)
-- ✅ **Windows / macOS / Linux** (Desktop)
+| Plataforma | Status | Versão Mínima |
+|------------|--------|---------------|
+| 🤖 Android | ✅ Suportado | 5.0 (API 21+) |
+| 🍎 iOS | ✅ Suportado | 11.0+ |
+| 🌐 Web | ✅ Suportado | Navegadores modernos |
+| 💻 Desktop | ⚙️ Em desenvolvimento | Windows/macOS/Linux |
 
-## 📱 Screenshots
-
-> 🚧 Em breve: capturas de tela da aplicação em funcionamento
-
-<!-- Descomente quando adicionar as imagens
-### Página Inicial
-![Home](./screenshots/home.png)
-
-### Catálogo de Produtos
-![Products](./screenshots/products.png)
-
-### Carrinho de Compras
-![Cart](./screenshots/cart.png)
-
-### Painel Administrativo
-![Admin Dashboard](./screenshots/admin.png)
--->
+---
 
 ## 🔒 Código Privado
 
-O código-fonte completo está em repositório privado por conter:
+> **Por que o código é privado?**
 
-- ✅ Lógica de negócio proprietária
+O repositório principal contém:
+- ✅ Lógica de negócio proprietária e estratégias comerciais
 - ✅ Configurações sensíveis de produção
-- ✅ Integrações com serviços terceiros
-- ✅ Chaves de API e credenciais
+- ✅ Integrações com APIs de terceiros (chaves, tokens)
+- ✅ Credenciais de bancos de dados e serviços
 
-**💼 Interessado em conhecer o código ou discutir o projeto?**  
-Entre em contato comigo! Estou aberto a conversas sobre o desenvolvimento, arquitetura e decisões técnicas.
+### 💼 Interessado no projeto?
 
-## 🎓 Aprendizados e Desafios
+Estou totalmente aberto a:
+- 🤝 Discutir arquitetura e decisões técnicas
+- 📊 Apresentar demonstrações do código
+- 💡 Compartilhar aprendizados e desafios
+- 🎯 Conversar sobre oportunidades profissionais
 
-Este projeto me permitiu desenvolver e aprimorar habilidades em:
+**Entre em contato comigo!** 👇
 
-- ✅ **Desenvolvimento Multiplataforma**: Um único código Flutter para Android, iOS e Web
-- ✅ **Arquitetura Full-Stack**: Backend Node.js + Frontend Flutter
-- ✅ **APIs RESTful**: Desenvolvimento de endpoints escaláveis e bem documentados
-- ✅ **Autenticação e Segurança**: Implementação de JWT, bcrypt e proteção de rotas
-- ✅ **Integração de Pagamentos**: Trabalho com gateways de pagamento
-- ✅ **Gerenciamento de Estado Flutter**: Provider/BLoC pattern
-- ✅ **Programação Assíncrona em Dart**: Futures, Streams e async/await
-- ✅ **UI/UX Mobile**: Design responsivo e material design
-- ✅ **Git & GitHub**: Versionamento profissional com commits semânticos
+---
 
-### Desafios Superados
+## 🎓 Aprendizados & Conquistas
 
-- Comunicação eficiente entre Flutter e API REST
-- Implementação de sistema de carrinho persistente
-- Gerenciamento de estado complexo no Flutter
-- Upload e otimização de imagens de produtos
-- Criação de dashboard administrativo mobile-first
-- Tratamento de erros e loading states
+### 🏆 Habilidades Desenvolvidas
 
-## 🚀 Próximos Passos
+| Área | Competências |
+|------|--------------|
+| **Frontend Mobile** | Flutter, Dart, Material Design, State Management, Responsive UI |
+| **Backend** | Node.js, Express, RESTful APIs, MongoDB, Authentication (JWT) |
+| **DevOps** | Git/GitHub, API Testing, Environment Management |
+| **Soft Skills** | Arquitetura de Software, Problem Solving, Documentação |
 
-- [ ] Sistema de avaliações e comentários de produtos
-- [ ] Notificações push (Firebase Cloud Messaging)
-- [ ] Integração com mais gateways de pagamento
-- [ ] Deep linking para compartilhamento de produtos
-- [ ] Sistema de cupons e descontos promocionais
-- [ ] Wishlist (lista de desejos)
-- [ ] Comparação de produtos
-- [ ] Modo offline com sincronização
-- [ ] Internacionalização (i18n)
-- [ ] Dark mode
+### 💪 Desafios Superados
+```dart
+✓ Arquitetura full-stack escalável e manutenível
+✓ Comunicação eficiente Flutter ↔ API REST
+✓ Gerenciamento de estado complexo (Provider/BLoC)
+✓ Sistema de autenticação JWT + refresh tokens
+✓ Upload otimizado de imagens (compressão + storage)
+✓ Carrinho persistente com sincronização
+✓ Dashboard admin com gráficos e métricas
+✓ Tratamento robusto de erros e loading states
+✓ Animações fluidas e transições nativas
+```
 
-## 💡 Por que este projeto?
+---
 
-Desenvolvi este e-commerce para:
+## 🚀 Roadmap Futuro
 
-1. **Demonstrar habilidades full-stack** em um projeto real e completo
-2. **Dominar Flutter** para desenvolvimento multiplataforma
-3. **Criar um portfólio sólido** com código de qualidade
-4. **Entender o fluxo completo** de uma aplicação comercial moderna
+### Em Planejamento
 
-## 👨‍💻 Autor
+- [ ] 🔔 **Notificações Push** - Firebase Cloud Messaging
+- [ ] ⭐ **Sistema de Avaliações** - Reviews e ratings de produtos
+- [ ] 🎫 **Cupons e Descontos** - Sistema promocional
+- [ ] 🔗 **Deep Linking** - Compartilhamento de produtos
+- [ ] ❤️ **Wishlist** - Lista de desejos persistente
+- [ ] 📊 **Comparação** - Compare até 4 produtos
+- [ ] 📴 **Modo Offline** - Sincronização inteligente
+- [ ] 🌍 **Internacionalização** - Multi-idioma (i18n)
+- [ ] 🌙 **Dark Mode** - Tema escuro
+- [ ] 🤖 **Recomendações IA** - Sugestões personalizadas
 
-**Anselmo Polcaro Ribeiro**
+---
 
-- 🐙 GitHub: [@polcaronet](https://github.com/polcaronet)
-- 📧 Email: polcaronet@gmail.com
-- 💼 LinkedIn: [Adicione seu LinkedIn aqui]
-- 🌐 Portfolio: [Adicione seu site aqui]
+## 💡 Motivação
+
+### Por que desenvolvi este projeto?
+
+1. **🎯 Demonstrar expertise full-stack** em um projeto real e comercial
+2. **📱 Dominar Flutter** e suas melhores práticas de desenvolvimento
+3. **💼 Construir portfólio técnico** com código de qualidade profissional
+4. **🚀 Entender e-commerce end-to-end** da autenticação ao pagamento
+5. **📈 Crescimento profissional** aplicando padrões de mercado
+
+---
+
+## 👨‍💻 Sobre o Desenvolvedor
+
+<div align="center">
+  
+### **Anselmo Polcaro Ribeiro**
+
+*Full-Stack Developer | Flutter Specialist | Node.js Enthusiast*
+
+[![GitHub](https://img.shields.io/badge/GitHub-polcaronet-181717?style=for-the-badge&logo=github)](https://github.com/polcaronet)
+[![Email](https://img.shields.io/badge/Email-polcaronet@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:polcaronet@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conecte--se-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com)
+
+</div>
+
+---
 
 ## 📄 Licença
-
-Este projeto é de código fechado. Todos os direitos reservados.
+```
+Copyright © 2024 Anselmo Polcaro Ribeiro
+Este projeto é de código fechado.
+Todos os direitos reservados.
+```
 
 ---
 
 <div align="center">
 
-**💼 Desenvolvido como projeto de portfólio profissional**
+### 💼 Desenvolvido como Projeto de Portfólio Profissional
 
 **🎯 Flutter + Node.js = Performance Multiplataforma**
 
+<br>
+
 ⭐ **Gostou do projeto? Deixe uma estrela!**
 
-💬 **Tem alguma dúvida ou feedback? Entre em contato!**
+💬 **Dúvidas ou feedback? Estou à disposição!**
+
+📧 **Oportunidades profissionais? Vamos conversar!**
+
+<br>
+
+---
+
+*Feito com ❤️ e muito ☕ por [Anselmo Polcaro](https://github.com/polcaronet)*
 
 </div>
