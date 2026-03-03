@@ -2,9 +2,9 @@
 
 <div align="center">
   <img width="300" alt="Art E-commerce App" src="https://github.com/user-attachments/assets/ad763802-0662-40d0-8c31-2ad82593af96" />
-  
+
   ### Sistema completo de E-commerce multiplataforma
-  
+
   [![Private Repository](https://img.shields.io/badge/code-private-red?style=for-the-badge)](https://github.com)
   [![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=for-the-badge)](https://github.com)
   [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
@@ -20,8 +20,8 @@
 **Art E-commerce** é uma plataforma completa de comércio eletrônico desenvolvida com arquitetura moderna e separação de responsabilidades. Combina o poder do **Flutter** para criar uma experiência mobile fluida e nativa com um **backend Node.js** robusto e escalável.
 
 ### ✨ Diferenciais
-- 📱 **Multiplataforma**: Um código, múltiplas plataformas (Android, iOS, Web)
-- 🚀 **Performance**: Interface nativa com Flutter + API REST otimizada
+- 📱 **Android Nativo**: Desenvolvido com Flutter para performance nativa
+- 🚀 **Performance**: Interface fluida com Flutter + API REST otimizada
 - 🔒 **Segurança**: Autenticação JWT e criptografia de dados sensíveis
 - 🎨 **UI/UX Moderna**: Material Design com animações fluidas
 
@@ -32,7 +32,7 @@
 <table>
   <tr>
     <td width="50%">
-      
+
 ### 🔐 Autenticação
 - Login e registro de usuários
 - Autenticação JWT segura
@@ -152,14 +152,11 @@ Art-Ecommerce/
 
 ---
 
-## 📱 Plataformas Suportadas
+## 📱 Plataforma Suportada
 
 | Plataforma | Status | Versão Mínima |
 |------------|--------|---------------|
 | 🤖 Android | ✅ Suportado | 5.0 (API 21+) |
-| 🍎 iOS | ✅ Suportado | 11.0+ |
-| 🌐 Web | ✅ Suportado | Navegadores modernos |
-| 💻 Desktop | ⚙️ Em desenvolvimento | Windows/macOS/Linux |
 
 ---
 
@@ -192,22 +189,21 @@ Estou totalmente aberto a:
 | Área | Competências |
 |------|--------------|
 | **Frontend Mobile** | Flutter, Dart, Material Design, State Management, Responsive UI |
-| **Backend** | Node.js, Express, RESTful APIs, MongoDB, Authentication (JWT) |
-| **DevOps** | Git/GitHub, API Testing, Environment Management |
-| **Soft Skills** | Arquitetura de Software, Problem Solving, Documentação |
+| **Backend** | Node.js, Express, RESTful APIs, MongoDB, Autenticação (JWT) |
+| **DevOps** | Git/GitHub, Testes de API, Gerenciamento de Ambientes |
+| **Soft Skills** | Arquitetura de Software, Resolução de Problemas, Documentação |
 
 ### 💪 Desafios Superados
-```dart
-✓ Arquitetura full-stack escalável e manutenível
-✓ Comunicação eficiente Flutter ↔ API REST
-✓ Gerenciamento de estado complexo (Provider/BLoC)
-✓ Sistema de autenticação JWT + refresh tokens
-✓ Upload otimizado de imagens (compressão + storage)
-✓ Carrinho persistente com sincronização
-✓ Dashboard admin com gráficos e métricas
-✓ Tratamento robusto de erros e loading states
-✓ Animações fluidas e transições nativas
-```
+
+- ✓ Arquitetura full-stack escalável e manutenível
+- ✓ Comunicação eficiente Flutter ↔ API REST
+- ✓ Gerenciamento de estado complexo (Provider/BLoC)
+- ✓ Sistema de autenticação JWT + refresh tokens
+- ✓ Upload otimizado de imagens (compressão + storage)
+- ✓ Carrinho persistente com sincronização
+- ✓ Dashboard admin com gráficos e métricas
+- ✓ Tratamento robusto de erros e loading states
+- ✓ Animações fluidas e transições nativas
 
 ---
 
