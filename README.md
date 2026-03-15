@@ -1,7 +1,7 @@
 # 🛒 Art E-commerce
 
 <div align="center">
-  <img width="300" alt="Art E-commerce App" src="https://github.com/user-attachments/assets/ad763802-0662-40d0-8c31-2ad82593af96" />
+  <img width="400" alt="Art E-commerce App" src="https://github.com/user-attachments/assets/ad763802-0662-40d0-8c31-2ad82593af96" />
 
   ### Sistema completo de E-commerce multiplataforma
 
